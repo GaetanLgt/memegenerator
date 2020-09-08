@@ -82,7 +82,8 @@ if (0 == $uploadOk) {
                     <form method="post" enctype="multipart/form-data">
                         Select image to upload:
                         <input type="file" name="fileToUpload" id="fileToUpload">
-                        <input type="button" value="Upload Your Image" class="btn btn-primary form-control">
+                        <input value="Upload Your Image" type="submit" name="submit"
+                            class="btn btn-primary form-control">
                         <br><br>
                         <img class="upload-button" id="featured-img" src="">
 
