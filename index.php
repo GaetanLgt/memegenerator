@@ -2,7 +2,7 @@
 require './assets/partials/header.php';
 require './model.php';
 
-// Check if image file is a actual image or fake image
+// Check if image file is a actual image or fake imagels
 if (isset($_POST['submit'])) {
     $target_dir = 'uploads/';
     $target_file = $target_dir.basename($_FILES['fileToUpload']['name']);
@@ -91,4 +91,5 @@ if (0 == $uploadOk) {
 </main>
 
 <?php
+
 require './assets/partials/footer.php';
